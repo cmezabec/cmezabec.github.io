@@ -1,0 +1,888 @@
+{
+  "_comment": "Structured content for the site. Edit this file and run `python3 build.py` to regenerate all HTML. Fields marked with a leading underscore are ignored by the builder.",
+  "person": {
+    "name": "Cristian Meza",
+    "role": "Full Professor",
+    "affiliation": "Instituto de Ingeniería Matemática (INGEMAT) — CIMFAV",
+    "faculty": "Facultad de Ingeniería, Universidad de Valparaíso",
+    "photo": "assets/img/CM.jpg",
+    "cv_pdf": "assets/CV_CristianMeza.pdf",
+    "cv_date": "2026"
+  },
+  "contact": {
+    "address_lines": [
+      "INGEMAT–CIMFAV, Facultad de Ingeniería",
+      "Universidad de Valparaíso",
+      "General Cruz 222, 5° piso",
+      "Valparaíso, Chile"
+    ],
+    "phone": "+56 32 260 3621",
+    "phone_secretary": "+56 32 260 3618",
+    "email": "cristian.meza@uv.cl",
+    "profiles": [
+      {
+        "name": "ORCID",
+        "url": "https://orcid.org/0000-0001-6332-6137",
+        "handle": "0000-0001-6332-6137"
+      },
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=Hzryq8UAAAAJ&hl=es",
+        "handle": "Hzryq8UAAAAJ"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/cmezabec",
+        "handle": "@cmezabec"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/cristian-meza-068653429",
+        "handle": "cristian-meza"
+      }
+    ]
+  },
+  "about": [
+    "I am a <strong>Full Professor</strong> at the Mathematical Engineering Institute (INGEMAT), Faculty of Engineering, <strong>Universidad de Valparaíso</strong>, and a member of the research centre <strong>CIMFAV</strong>.",
+    "I obtained my <strong>PhD in Statistics</strong> in 2006 from <em>Université Paris-Sud (Orsay)</em>, under the supervision of <em>Marc Lavielle</em> (INRIA, École Polytechnique) and <em>Jean-Louis Foulley</em> (INRA, Jouy-en-Josas), with a thesis on extensions and applications of the SAEM algorithm for mixed models.",
+    "My research focuses on <strong>mixed-effects models</strong> (linear, nonlinear and generalized), <strong>EM-type and stochastic approximation algorithms (EM, SAEM)</strong>, <strong>REML estimation</strong>, <strong>MCMC methods</strong>, <strong>semiparametric and penalized (LASSO-type) models</strong>, and <strong>segmentation models</strong>, with applications in biometrics, biostatistics, microbiome data, epidemiology and astrostatistics."
+  ],
+  "research_interests": [
+    "Mixed-effects models (LME, NLME, GLMM)",
+    "EM-type algorithms and stochastic approximation (SAEM)",
+    "REML estimation",
+    "MCMC and Bayesian computation",
+    "Semiparametric and penalized (LASSO-type) models",
+    "Segmentation / change-point models",
+    "Applications: biometrics, biostatistics, microbiome, epidemiology, astrostatistics"
+  ],
+  "education": [
+    {
+      "years": "2003–2006",
+      "degree": "Ph.D. in Statistics",
+      "institution": "Université Paris-Sud, Orsay, France",
+      "note": "Thesis: <em>Extensions et applications de l'algorithme SAEM pour les modèles mixtes</em>. Advisers: Marc Lavielle (Université Paris 5) and Jean-Louis Foulley (INRA Jouy-en-Josas)."
+    },
+    {
+      "years": "2002–2003",
+      "degree": "M.S. (D.E.A.) in Stochastic Modelling and Statistics",
+      "institution": "Université Paris-Sud, France",
+      "note": ""
+    },
+    {
+      "years": "2000–2001",
+      "degree": "M.S. in Statistics",
+      "institution": "Pontificia Universidad Católica de Chile, Santiago, Chile",
+      "note": ""
+    },
+    {
+      "years": "1995–1999",
+      "degree": "B.S. in Mathematics and Statistics",
+      "institution": "Pontificia Universidad Católica de Chile, Santiago, Chile",
+      "note": ""
+    }
+  ],
+  "positions": [
+    {
+      "years": "Since 2024",
+      "title": "Full Professor",
+      "place": "INGEMAT–CIMFAV, Facultad de Ingeniería, Universidad de Valparaíso, Chile"
+    },
+    {
+      "years": "2012–2024",
+      "title": "Associate Professor",
+      "place": "CIMFAV–Facultad de Ingeniería, Universidad de Valparaíso, Chile"
+    },
+    {
+      "years": "2007–2011",
+      "title": "Assistant Professor",
+      "place": "Departamento de Estadística, Universidad de Valparaíso, Chile"
+    },
+    {
+      "years": "2006–2007",
+      "title": "Teaching Assistant (A.T.E.R.)",
+      "place": "Laboratoire de Mathématiques, Université Paris-Sud, Orsay, France"
+    },
+    {
+      "years": "2002",
+      "title": "Professor, EPES programme",
+      "place": "Ministry of Education of Chile, Santiago, Chile"
+    },
+    {
+      "years": "2002",
+      "title": "Professor, Statistics and Computing (M.S. in Statistics)",
+      "place": "Departamento de Matemática y Estadística, Pontificia Universidad Católica de Chile"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2026",
+      "authors": "John Barrera, <b>Cristian Meza</b> and Ana Arribas-Gil",
+      "title": "A stochastic method to estimate a zero-inflated two-part mixed model for human microbiome data",
+      "venue": "Statistical Modelling",
+      "detail": "Accepted",
+      "doi": "10.1177/1471082x261438214",
+      "url": ""
+    },
+    {
+      "year": "2025",
+      "authors": "Danilo Alvares, <b>Cristian Meza</b> and Rolando De la Cruz",
+      "title": "Bayesian inference for nonlinear mixed-effects location scale and interval-censoring cure-survival models: an application to pregnancy miscarriage",
+      "venue": "Statistical Methods in Medical Research",
+      "detail": "34(8), 1525–1533",
+      "doi": "10.1177/09622802251345485",
+      "url": ""
+    },
+    {
+      "year": "2024",
+      "authors": "Rolando De la Cruz, Marc Lavielle, <b>Cristian Meza</b> and Vicente Núñez-Antón",
+      "title": "A joint analysis proposal of nonlinear longitudinal and time-to-event right-, interval-censored data for modeling pregnancy miscarriage",
+      "venue": "Computers in Biology and Medicine",
+      "detail": "182, 109186",
+      "doi": "10.1016/j.compbiomed.2024.109186",
+      "url": ""
+    },
+    {
+      "year": "2023",
+      "authors": "Maritza Márquez, <b>Cristian Meza</b>, Dae-Jin Lee and Rolando De la Cruz",
+      "title": "Classification of longitudinal profiles using semi-parametric nonlinear mixed models with P-splines and the SAEM algorithm",
+      "venue": "Statistics in Medicine",
+      "detail": "42(27), 4952–4971",
+      "doi": "10.1002/sim.9895",
+      "url": ""
+    },
+    {
+      "year": "2023",
+      "authors": "Lucas Vicuña, Esteban Barrientos, Tomás Norambuena, Danilo Alvares, Juan Cristóbal Gana, Valeria Leiva-Yamaguchi, <b>Cristian Meza</b>, José L. Santos, Verónica Mericq, Ana Pereira and Susana Eyheramendy",
+      "title": "New insights from GWAS on BMI-related growth traits in a longitudinal cohort of admixed children with Native American and European ancestry",
+      "venue": "iScience",
+      "detail": "26(2), 106091",
+      "doi": "10.1016/j.isci.2023.106091",
+      "url": ""
+    },
+    {
+      "year": "2022",
+      "authors": "Rolando De la Cruz, <b>Cristian Meza</b>, Nicolás Narria and Claudio Fuentes",
+      "title": "A Bayesian change point analysis of the USD/CLP series in Chile from 2018 to 2020: understanding the impact of social protests and the COVID-19 pandemic",
+      "venue": "Mathematics",
+      "detail": "10(18), 3380",
+      "doi": "10.3390/math10183380",
+      "url": ""
+    },
+    {
+      "year": "2022",
+      "authors": "Rolando De la Cruz, Hugo Salinas and <b>Cristian Meza</b>",
+      "title": "Reliability estimation for stress-strength model based on unit-half-normal distribution",
+      "venue": "Symmetry",
+      "detail": "14(4), 837",
+      "doi": "10.3390/sym14040837",
+      "url": ""
+    },
+    {
+      "year": "2019",
+      "authors": "Gabriel A. Cáceres, Eric D. Feigelson, G. Jogesh Babu, Natalia Bahamonde, Alejandra Christen, Karine Bertin, <b>Cristian Meza</b> and Michel Curé",
+      "title": "Autoregressive planet search: methodology",
+      "venue": "The Astronomical Journal",
+      "detail": "158(2), 57",
+      "doi": "10.3847/1538-3881/ab26b8",
+      "url": ""
+    },
+    {
+      "year": "2019",
+      "authors": "Gabriel A. Cáceres, Eric D. Feigelson, G. Jogesh Babu, Natalia Bahamonde, Alejandra Christen, Karine Bertin, <b>Cristian Meza</b> and Michel Curé",
+      "title": "Autoregressive planet search: application to the Kepler mission",
+      "venue": "The Astronomical Journal",
+      "detail": "158(2), 58",
+      "doi": "10.3847/1538-3881/ab26ba",
+      "url": ""
+    },
+    {
+      "year": "2019",
+      "authors": "Meili Baragatti, Karine Bertin, <b>Cristian Meza</b> and Emilie Lebarbier",
+      "title": "A Bayesian approach for the segmentation of series with a functional effect",
+      "venue": "Statistical Modelling",
+      "detail": "19(2), 194–220",
+      "doi": "10.1177/1471082x18755539",
+      "url": ""
+    },
+    {
+      "year": "2018",
+      "authors": "Rolando De la Cruz, Claudio Fuentes, <b>Cristian Meza</b> and Vicente Núñez-Antón",
+      "title": "Error-rate estimation in discriminant analysis of non-linear longitudinal data: a comparison of resampling methods",
+      "venue": "Statistical Methods in Medical Research",
+      "detail": "27(4), 1153–1167",
+      "doi": "10.1177/0962280216656246",
+      "url": ""
+    },
+    {
+      "year": "2017",
+      "authors": "Rolando De la Cruz, Claudio Fuentes, <b>Cristian Meza</b>, Dae-Jin Lee and Ana Arribas-Gil",
+      "title": "Predicting pregnancy outcomes using longitudinal information: a penalized splines mixed-effects model approach",
+      "venue": "Statistics in Medicine",
+      "detail": "36(13), 2120–2134",
+      "doi": "10.1002/sim.7256",
+      "url": ""
+    },
+    {
+      "year": "2017",
+      "authors": "Karine Bertin, Xavier Collilieux, Emilie Lebarbier and <b>Cristian Meza</b>",
+      "title": "Semi-parametric segmentation of multiple series using a DP-Lasso strategy",
+      "venue": "Journal of Statistical Computation and Simulation",
+      "detail": "87, 1255–1268",
+      "doi": "10.1080/00949655.2016.1260726",
+      "url": ""
+    },
+    {
+      "year": "2016",
+      "authors": "Rolando De la Cruz, <b>Cristian Meza</b>, Ana Arribas-Gil and Raymond Carroll",
+      "title": "Bayesian regression analysis of data with random effects covariates from nonlinear longitudinal measurements",
+      "venue": "Journal of Multivariate Analysis",
+      "detail": "143, 94–106",
+      "doi": "10.1016/j.jmva.2015.08.020",
+      "url": ""
+    },
+    {
+      "year": "2015",
+      "authors": "Ana Arribas-Gil, Rolando De la Cruz, Emilie Lebarbier and <b>Cristian Meza</b>",
+      "title": "Classification of longitudinal data through a semiparametric mixed-effects model based on Lasso-type estimators",
+      "venue": "Biometrics",
+      "detail": "71(2), 333–343",
+      "doi": "10.1111/biom.12280",
+      "url": ""
+    },
+    {
+      "year": "2014",
+      "authors": "Ana Arribas-Gil, Karine Bertin, <b>Cristian Meza</b> and Vincent Rivoirard",
+      "title": "Lasso-type estimators for semiparametric nonlinear mixed-effects models estimation",
+      "venue": "Statistics and Computing",
+      "detail": "24(3), 443–460",
+      "doi": "10.1007/s11222-013-9380-x",
+      "url": ""
+    },
+    {
+      "year": "2012",
+      "authors": "<b>Cristian Meza</b>, Felipe Osorio and Rolando De la Cruz",
+      "title": "Estimation in nonlinear mixed-effects models using heavy-tailed distributions",
+      "venue": "Statistics and Computing",
+      "detail": "22(1), 121–139",
+      "doi": "10.1007/s11222-010-9212-1",
+      "url": ""
+    },
+    {
+      "year": "2009",
+      "authors": "<b>Cristian Meza</b>, Florence Jaffrézic and Jean-Louis Foulley",
+      "title": "Estimation in the probit normal model for binary outcomes using the SAEM algorithm",
+      "venue": "Computational Statistics and Data Analysis",
+      "detail": "53(4), 1350–1360",
+      "doi": "10.1016/j.csda.2008.11.024",
+      "url": ""
+    },
+    {
+      "year": "2007",
+      "authors": "<b>Cristian Meza</b>, Florence Jaffrézic and Jean-Louis Foulley",
+      "title": "REML estimation of variance parameters in nonlinear mixed effects models using the SAEM algorithm",
+      "venue": "Biometrical Journal",
+      "detail": "49(6), 876–888",
+      "doi": "10.1002/bimj.200610348",
+      "url": ""
+    },
+    {
+      "year": "2007",
+      "authors": "Marc Lavielle and <b>Cristian Meza</b>",
+      "title": "A parameter expansion version of the SAEM algorithm",
+      "venue": "Statistics and Computing",
+      "detail": "17(2), 121–130",
+      "doi": "10.1007/s11222-006-9007-6",
+      "url": ""
+    },
+    {
+      "year": "2006",
+      "authors": "Florence Jaffrézic, <b>Cristian Meza</b>, Marc Lavielle and Jean-Louis Foulley",
+      "title": "Genetic analysis of growth curves using the SAEM algorithm",
+      "venue": "Genetics Selection Evolution",
+      "detail": "38, 583–600",
+      "doi": "10.1186/1297-9686-38-6-583",
+      "url": ""
+    }
+  ],
+  "conference_papers": [
+    {
+      "year": "2025",
+      "authors": "Céline Hosteins, Marta Avalos, Diego Kauer, <b>Cristian Meza</b>, Laurence Delhaes and Raphaël Enaud",
+      "title": "Machine learning for compositional microbiome data to predict a clinical outcome: are interpretable methods up to the task?",
+      "venue": "15th IEEE International Conference on Pattern Recognition Systems (ICPRS), Viña del Mar, Chile",
+      "detail": "pp. 1–7",
+      "doi": "10.1109/ICPRS66293.2025.11302842",
+      "url": ""
+    },
+    {
+      "year": "2025",
+      "authors": "Marta Avalos, John Barrera, <b>Cristian Meza</b>, Susana Eyheramendy, Raphaël Enaud, Louise-Eva Vandenborght and Laurence Delhaes",
+      "title": "Indoor microbiome in asthma: a differential abundance framework accounting for zero-inflation, compositionality, spatial clustering, and covariate adjustment",
+      "venue": "International Conference on Computational Intelligence Methods for Bioinformatics and Biostatistics (CIBB)",
+      "detail": "",
+      "doi": "",
+      "url": ""
+    },
+    {
+      "year": "2010",
+      "authors": "Rolando De la Cruz, Susana Eyheramendy, <b>Cristian Meza</b> and Felipe Osorio",
+      "title": "Exact estimation procedures in a spatial mixed-effects probit model with binary outcomes",
+      "venue": "Joint Statistical Meetings Proceedings, Section on Statistical Computing",
+      "detail": "pp. 3629–3638",
+      "doi": "",
+      "url": ""
+    },
+    {
+      "year": "2007",
+      "authors": "<b>Cristian Meza</b>, Florence Jaffrézic and Jean-Louis Foulley",
+      "title": "Estimation dans un modèle mixte probit normal pour données binaires en utilisant l'algorithme SAEM et ses dérivées",
+      "venue": "Actes des XXXIX Journées de Statistique de la SFdS",
+      "detail": "",
+      "doi": "",
+      "url": ""
+    },
+    {
+      "year": "2005",
+      "authors": "<b>Cristian Meza</b>",
+      "title": "Extensions de l'algorithme SAEM : version PX et estimation REML",
+      "venue": "Actes des XXXVII Journées de Statistique de la SFdS",
+      "detail": "",
+      "doi": "",
+      "url": ""
+    }
+  ],
+  "thesis": {
+    "author": "Cristian Meza",
+    "title": "Extensions et applications de l'algorithme SAEM pour les modèles mixtes",
+    "detail": "PhD in Science, speciality Mathematics, Université Paris-Sud, Faculté des Sciences d'Orsay, 2006."
+  },
+  "projects": [
+    {
+      "years": "2025–2028",
+      "role": "Associated Researcher",
+      "title": "Associate Team INRIA VALPO",
+      "agency": "INRIA, France"
+    },
+    {
+      "years": "2024–2026",
+      "role": "Principal Investigator",
+      "title": "Statistical modeling, nonparametric inference and model selection for complex data (SMILE)",
+      "agency": "MATH-AmSud AMSUD230032, Chile"
+    },
+    {
+      "years": "2020–2024",
+      "role": "Associated Researcher",
+      "title": "Innovative genome-wide association methods for a longitudinal Chilean cohort: with an application to height, BMI and pubertal age",
+      "agency": "FONDECYT 1200146, Chile"
+    },
+    {
+      "years": "2020–2023",
+      "role": "Associated Researcher",
+      "title": "Statistical modeling for novel biochemical mechanisms to target neurological conditions",
+      "agency": "PCI-CONICYT REDES190038, Chile"
+    },
+    {
+      "years": "2019–2023",
+      "role": "Principal Investigator",
+      "title": "Time-dependent data: efficient estimation procedures in complex semiparametric mixed-effects models and segmentation methods for multiple series with disturbances",
+      "agency": "FONDECYT 1190801, Chile"
+    },
+    {
+      "years": "2018–2019",
+      "role": "Principal Investigator",
+      "title": "Statistical and stochastic modeling for longitudinal data and application in biometrics using semiparametric approaches",
+      "agency": "PCI-CONICYT REDES170123, Chile"
+    },
+    {
+      "years": "2018–2019",
+      "role": "Principal Investigator",
+      "title": "SaSMoTiDep — Statistical and stochastic modeling for time-dependent data",
+      "agency": "MATH-AmSud CONICYT 18-MATH-07, Chile"
+    },
+    {
+      "years": "2018",
+      "role": "Associated Researcher",
+      "title": "Estimación eficiente basada en la norma L1 para modelos mixtos",
+      "agency": "PAI-CONICYT MEC 80170061, Chile"
+    },
+    {
+      "years": "2016–2017",
+      "role": "Associated Researcher",
+      "title": "Statistical inference for dependent stochastic processes and application in renewable energy",
+      "agency": "MATH-AmSud 16-MATH-03 SIDRE, Chile"
+    },
+    {
+      "years": "2014–2018",
+      "role": "Principal Investigator",
+      "title": "New challenges in mixed-effects models",
+      "agency": "FONDECYT 1141256, Chile"
+    },
+    {
+      "years": "2014–2018",
+      "role": "Associated Researcher",
+      "title": "Adaptive estimation and oracle inequalities",
+      "agency": "FONDECYT 1141258, Chile"
+    },
+    {
+      "years": "2013–2015",
+      "role": "Principal Investigator",
+      "title": "Tests with dependent functional data",
+      "agency": "FONDECYT Postdoctoral 3140602, Chile"
+    },
+    {
+      "years": "2013–2014",
+      "role": "Principal Investigator",
+      "title": "Support to the development of astrostatistics in Valparaíso",
+      "agency": "Fondo Gemini-CONICYT 32120025, Chile"
+    },
+    {
+      "years": "2013",
+      "role": "Associated Researcher",
+      "title": "Fortalecimiento de la astroestadística en Valparaíso",
+      "agency": "CONICYT — Apoyo a la Formación de Redes Internacionales, Chile"
+    },
+    {
+      "years": "2012–2015",
+      "role": "Associated Researcher",
+      "title": "Red de Análisis Estocástico y Aplicaciones (sistemas abiertos, energía y dinámica de la información)",
+      "agency": "Anillo de Investigación en Ciencia y Tecnología, Chile"
+    },
+    {
+      "years": "2009–2013",
+      "role": "Principal Investigator",
+      "title": "Exact estimation procedures in mixed-effects models",
+      "agency": "FONDECYT 11090024, Chile"
+    },
+    {
+      "years": "2009–2011",
+      "role": "Associated Researcher",
+      "title": "Desarrollo de un modelo de gestión y diseño transdisciplinario para la vigencia de la unidad de barrio",
+      "agency": "DIPUV 38/2008, Universidad de Valparaíso, Chile"
+    },
+    {
+      "years": "2008–2010",
+      "role": "Principal Investigator",
+      "title": "Métodos de estimación en modelos con efectos mixtos para datos no normales",
+      "agency": "DIPUV 05/2007, Universidad de Valparaíso, Chile"
+    },
+    {
+      "years": "2007–2012",
+      "role": "Principal Investigator",
+      "title": "Inserción de académicos en la Facultad de Ciencias de la Universidad de Valparaíso",
+      "agency": "CONICYT PBCT PSD 20, Chile"
+    },
+    {
+      "years": "2006–2008",
+      "role": "Associated Researcher",
+      "title": "Estimation et sélection de modèles dans les modèles non linéaires à effets mixtes et applications en biostatistiques",
+      "agency": "ANR MONOLIX, France"
+    },
+    {
+      "years": "Since 2007",
+      "role": "Associated Researcher",
+      "title": "Centro de Investigación y Modelamiento de Fenómenos Aleatorios (CIMFAV)",
+      "agency": "CID 03/2007, Universidad de Valparaíso, Chile"
+    }
+  ],
+  "supervision": {
+    "phd": [
+      {
+        "name": "John Barrera",
+        "year": "2025",
+        "program": "PhD in Mathematics, UV–PUCV–UTFSM"
+      },
+      {
+        "name": "Maritza Márquez",
+        "year": "2022",
+        "program": "PhD in Mathematics, UV–PUCV–UTFSM"
+      },
+      {
+        "name": "Freddy López",
+        "year": "2017",
+        "program": "PhD in Mathematics, UV–PUCV–UTFSM"
+      }
+    ],
+    "msc_note": "11 M.S. theses in Statistics supervised (Universidad de Valparaíso, Pontificia Universidad Católica de Chile and Pontificia Universidad Católica de Valparaíso)."
+  },
+  "responsibilities": [
+    {
+      "years": "2023–2025",
+      "text": "President of the Consortium of the PhD in Mathematics programme (Universidad de Valparaíso — Pontificia Universidad Católica de Valparaíso — Universidad Técnica Federico Santa María)."
+    },
+    {
+      "years": "2023–2024",
+      "text": "Member of the <em>Grupo de Estudio Matemáticas</em>, FONDECYT Postdoctoral and Iniciación, ANID."
+    },
+    {
+      "years": "2012–2016",
+      "text": "Director of the PhD in Mathematics programme, Universidad de Valparaíso."
+    },
+    {
+      "years": "2012–2015",
+      "text": "Member of the Strategic Issues Committee, International Biometric Society (IBS)."
+    },
+    {
+      "years": "2011–2012",
+      "text": "Coordinator of the Chilean Region of the International Biometric Society (IBS)."
+    }
+  ],
+  "visiting": [
+    {
+      "year": "2025",
+      "when": "December",
+      "place": "Instituto de Matemática, Universidade Federal do Rio de Janeiro, Brazil"
+    },
+    {
+      "year": "2025",
+      "when": "July",
+      "place": "ISPED, Université de Bordeaux, France"
+    },
+    {
+      "year": "2025",
+      "when": "June",
+      "place": "Modal'X, Université Paris Nanterre, France"
+    },
+    {
+      "year": "2024",
+      "when": "December",
+      "place": "Modal'X, Université Paris Nanterre, France"
+    },
+    {
+      "year": "2024",
+      "when": "December",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2024",
+      "when": "March",
+      "place": "ISPED, Université de Bordeaux, France"
+    },
+    {
+      "year": "2023",
+      "when": "June",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2022",
+      "when": "November",
+      "place": "Oregon State University, Corvallis, USA"
+    },
+    {
+      "year": "2022",
+      "when": "October",
+      "place": "CUNY School of Medicine, New York City, USA"
+    },
+    {
+      "year": "2022",
+      "when": "June",
+      "place": "BCAM, Bilbao, Spain"
+    },
+    {
+      "year": "2022",
+      "when": "May",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2021",
+      "when": "October",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2019",
+      "when": "October",
+      "place": "CMAP, École Polytechnique, Palaiseau, France"
+    },
+    {
+      "year": "2019",
+      "when": "September",
+      "place": "Montpellier SupAgro–INRA, Montpellier, France"
+    },
+    {
+      "year": "2019",
+      "when": "August",
+      "place": "BCAM, Bilbao, Spain"
+    },
+    {
+      "year": "2018",
+      "when": "September",
+      "place": "CMAP, École Polytechnique, Palaiseau, France"
+    },
+    {
+      "year": "2018",
+      "when": "September",
+      "place": "Montpellier SupAgro–INRA, Montpellier, France"
+    },
+    {
+      "year": "2016",
+      "when": "September",
+      "place": "ISPED, Université de Bordeaux, France"
+    },
+    {
+      "year": "2016",
+      "when": "July",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2016",
+      "when": "July",
+      "place": "AgroParisTech, Paris, France"
+    },
+    {
+      "year": "2015",
+      "when": "July",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2014",
+      "when": "July",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2013",
+      "when": "July",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2013",
+      "when": "July",
+      "place": "ENSAI, Rennes, France"
+    },
+    {
+      "year": "2012",
+      "when": "April",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2010",
+      "when": "May",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2009",
+      "when": "June",
+      "place": "Universidad Carlos III de Madrid, Spain"
+    },
+    {
+      "year": "2009",
+      "when": "May",
+      "place": "Universidade Estadual de Campinas, Brazil"
+    },
+    {
+      "year": "2008",
+      "when": "July",
+      "place": "Quantitative and Applied Genetics Department, INRA, Jouy-en-Josas, France"
+    },
+    {
+      "year": "2007",
+      "when": "September",
+      "place": "Quantitative and Applied Genetics Department, INRA, Jouy-en-Josas, France"
+    }
+  ],
+  "talks": [
+    {
+      "year": "2024",
+      "event": "Séminaire Biostatistique, ISPED — Université de Bordeaux, France",
+      "title": "Estimation of a two-part mixed effects model for longitudinal compositional data using the SAEM algorithm"
+    },
+    {
+      "year": "2023",
+      "event": "XIX Conferencia Española — VIII Encuentro Iberoamericano de Biometría, Vigo, Spain",
+      "title": "Classification using a joint model of longitudinal data and binary outcomes based on the SAEM algorithm"
+    },
+    {
+      "year": "2022",
+      "event": "Congreso en honor a Chichi Leén y Marc Lavielle, Montevideo, Uruguay",
+      "title": "My PhD thesis with Marc and what followed"
+    },
+    {
+      "year": "2021",
+      "event": "XIV Congreso Latinoamericano de Sociedades de Estadística, Montevideo, Uruguay (online)",
+      "title": "Alternative subgroup joint analysis proposal of nonlinear longitudinal and time-to-event data for modeling pregnancy miscarriage"
+    },
+    {
+      "year": "2019",
+      "event": "XVII Conferencia Española de Biometría, Valencia, Spain",
+      "title": "The segmentation of series with a functional effect: a Bayesian approach"
+    },
+    {
+      "year": "2018",
+      "event": "IV Jornada de Probabilidad y Procesos Estocásticos, Bogotá, Colombia",
+      "title": "A Bayesian approach for the segmentation of series with a functional effect"
+    },
+    {
+      "year": "2018",
+      "event": "XXIX International Biometric Conference, Barcelona, Spain",
+      "title": "A Bayesian approach for the segmentation of series with a functional effect"
+    },
+    {
+      "year": "2017",
+      "event": "XVI Conferencia Española de Biometría, Sevilla, Spain",
+      "title": "Predicting pregnancy outcomes using longitudinal information: a P-splines mixed-effects model approach"
+    },
+    {
+      "year": "2017",
+      "event": "Joint Statistical Meetings, Baltimore, USA",
+      "title": "A Bayesian approach for the segmentation of series corrupted by a functional part"
+    },
+    {
+      "year": "2016",
+      "event": "XIV CLAPEM, San José, Costa Rica",
+      "title": "A Bayesian approach for the segmentation of series corrupted by a functional part"
+    },
+    {
+      "year": "2016",
+      "event": "Joint Statistical Meetings, Chicago, USA",
+      "title": "Predicting pregnancy outcomes using longitudinal information: a P-splines mixed-effects model approach"
+    },
+    {
+      "year": "2015",
+      "event": "XLII Jornadas Nacionales de Estadística, Concepción, Chile",
+      "title": "Bayesian regression analysis of data with random effects covariates from nonlinear longitudinal measurements"
+    },
+    {
+      "year": "2015",
+      "event": "V Encuentro Iberoamericano de Biometría, Bilbao, Spain",
+      "title": "Function selection in mixed effects models using L1-penalization"
+    },
+    {
+      "year": "2014",
+      "event": "XXVII International Biometric Conference, Florence, Italy",
+      "title": "Classification of longitudinal data through a semiparametric mixed-effects model based on Lasso-type estimators"
+    },
+    {
+      "year": "2014",
+      "event": "Joint Statistical Meetings, Boston, USA",
+      "title": "Linear semiparametric estimation procedure for the segmentation of multiple series based on a Lasso strategy"
+    },
+    {
+      "year": "2012",
+      "event": "Joint Statistical Meetings, San Diego, USA",
+      "title": "Lasso-type estimators for semiparametric nonlinear mixed-effects models estimation"
+    },
+    {
+      "year": "2012",
+      "event": "1ère Rencontre Franco-chilienne de Statistique, Paris, France",
+      "title": "Estimation in semiparametric nonlinear mixed-effects models using L1-penalization"
+    },
+    {
+      "year": "2011",
+      "event": "Joint Statistical Meetings, Miami, USA",
+      "title": "Classification of multivariate longitudinal data through a semiparametric mixed-effects model with nonstandard assumptions"
+    },
+    {
+      "year": "2011",
+      "event": "Séminaire AgroParisTech, Paris, France",
+      "title": "Estimation in nonlinear mixed-effects models using heavy-tailed distributions"
+    },
+    {
+      "year": "2011",
+      "event": "Séminaire Modal'X, Université Paris Ouest Nanterre, France",
+      "title": "Estimation in nonlinear mixed-effects models using heavy-tailed distributions"
+    },
+    {
+      "year": "2011",
+      "event": "Seminario Departamento de Estadística, PUC, Santiago, Chile",
+      "title": "New challenges in semiparametric nonlinear mixed-effects models estimation"
+    },
+    {
+      "year": "2010",
+      "event": "XXV International Biometric Conference, Florianópolis, Brazil",
+      "title": "New approaches for semiparametric estimation in nonlinear mixed-effects models"
+    },
+    {
+      "year": "2010",
+      "event": "Joint Statistical Meetings, Vancouver, Canada",
+      "title": "Exact estimation procedures in a spatial mixed-effects probit model with binary outcomes"
+    },
+    {
+      "year": "2010",
+      "event": "X Jornadas Nacionales de Bioestadística, Santiago, Chile",
+      "title": "Exact estimation procedures in complex mixed-effects models: interacting R with WinBUGS"
+    },
+    {
+      "year": "2009",
+      "event": "Simposio en Modelamiento Estadístico, Valparaíso, Chile",
+      "title": "Flexible nonlinear mixed-effects models"
+    },
+    {
+      "year": "2009",
+      "event": "Universidade Estadual de Campinas, Brazil",
+      "title": "Estimation in nonlinear mixed-effects models using heavy-tailed distributions"
+    },
+    {
+      "year": "2009",
+      "event": "XI Escola de Modelos de Regressão, Recife, Brazil",
+      "title": "Estimation in nonlinear mixed-effects models under heavy-tailed distributions using a stochastic approximation of the EM algorithm"
+    },
+    {
+      "year": "2008",
+      "event": "Joint Statistical Meetings, Denver, USA",
+      "title": "A robust nonlinear mixed-effects model using the SAEM algorithm"
+    },
+    {
+      "year": "2008",
+      "event": "XXIV International Biometric Conference, Dublin, Ireland",
+      "title": "Estimation in the probit normal model for binary outcomes using the SAEM algorithm"
+    },
+    {
+      "year": "2007",
+      "event": "XXXIX Journées de Statistique de la SFdS, Orléans, France",
+      "title": "Estimation dans un modèle mixte probit normal pour données binaires en utilisant l'algorithme SAEM et ses dérivées"
+    }
+  ],
+  "teaching": {
+    "note": "Courses taught at undergraduate and graduate level at Universidad de Valparaíso, Pontificia Universidad Católica de Chile, Universidad Adolfo Ibáñez and Université Paris-Sud.",
+    "graduate": [
+      "Computational Bayesian Statistics (M.S. in Statistics, UV)",
+      "The EM algorithm and its extensions (M.S. in Statistics, PUCV)",
+      "Statistical consulting (M.S. in Statistics, UV)",
+      "Research seminar / thesis project (PhD in Mathematics, UV)",
+      "Statistics and Computing (M.S. in Statistics, PUC)",
+      "Séries chronologiques; Calcul des risques (M.Sc., Université Paris-Sud Orsay)"
+    ],
+    "undergraduate": [
+      "ICN122 — Estadística (Ingeniería en Construcción, UV)",
+      "IES123 — Métodos Estadísticos (Ingeniería en Estadística, UV)",
+      "IES224 — Computación IV (Ingeniería en Estadística, UV)",
+      "IES413 — Series de Tiempo (Ingeniería en Estadística, UV)",
+      "IIC310 — Probabilidades y Estadística (Ingeniería Civil en Informática, UV)",
+      "INF301 — Estadística y Probabilidad (Ingeniería en Informática Aplicada, UV)",
+      "EST101 / EST103 — Probabilidades y Estadística I (Universidad Adolfo Ibáñez)"
+    ]
+  },
+  "societies": [
+    "Institute of Mathematical Statistics (IMS)",
+    "International Society for Bayesian Analysis (ISBA)",
+    "International Biometric Society (IBS)",
+    "Sociedad Chilena de Estadística (SOCHE)"
+  ],
+  "awards": [
+    {
+      "years": "2004–2006",
+      "text": "Doctoral scholarship, CONICYT and the French Embassy in Chile."
+    },
+    {
+      "years": "2000–2001",
+      "text": "M.S. scholarship, DIPUC, Pontificia Universidad Católica de Chile."
+    }
+  ],
+  "skills": [
+    "R",
+    "MATLAB",
+    "SAS",
+    "Stan / WinBUGS / JAGS",
+    "Monolix",
+    "LaTeX",
+    "HPC (SLURM)"
+  ],
+  "software": [
+    {
+      "_comment": "Add public repositories here as you publish them; they render as cards on the Software page.",
+      "name": "",
+      "url": "",
+      "description": "",
+      "language": ""
+    }
+  ]
+}
