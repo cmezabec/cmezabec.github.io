@@ -56,7 +56,8 @@ def nav_html(current):
 
 
 def page(current, title, body, description=""):
-    d = description or f"{title} — Cristian Meza, Full Professor of Statistics, Universidad de Valparaíso."
+    d = description or (f"{title} — Cristian Meza, Full Professor at the Mathematical "
+                        f"Engineering Institute, Universidad de Valparaíso.")
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -200,8 +201,9 @@ def build_index(cv):
         + section("Current projects", proj)
     )
     return page("index.html", "Home", body,
-                "Cristian Meza — Full Professor of Statistics at Universidad de Valparaíso. "
-                "Mixed-effects models, SAEM algorithm, semiparametric and penalized methods.")
+                "Cristian Meza — Full Professor at the Mathematical Engineering Institute "
+                "(INGEMAT), Universidad de Valparaíso. Mixed-effects models, SAEM algorithm, "
+                "semiparametric and penalized methods.")
 
 
 def build_research(cv):
