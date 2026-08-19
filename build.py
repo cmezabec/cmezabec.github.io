@@ -23,10 +23,15 @@ NAV = [
     ("research.html", "Research"),
     ("projects.html", "Projects"),
     ("teaching.html", "Teaching"),
-    ("talks.html", "Talks &amp; Visits"),
     ("cv.html", "CV"),
     ("contact.html", "Contact"),
 ]
+
+# La página "Talks & Visits" está desactivada. Los datos siguen intactos en
+# data/cv.json ("talks" y "visiting"). Para volver a publicarla:
+#   1. añade ("talks.html", "Talks &amp; Visits") a NAV, antes de cv.html
+#   2. añade "talks.html": build_talks(cv) al diccionario `pages` en main()
+ENABLE_TALKS_PAGE = False
 
 # Old filenames kept alive as redirects so existing links do not break.
 REDIRECTS = {
@@ -377,7 +382,6 @@ def main():
         "research.html": build_research(cv),
         "projects.html": build_projects(cv),
         "teaching.html": build_teaching(cv),
-        "talks.html": build_talks(cv),
         "cv.html": build_cv(cv),
         "contact.html": build_contact(cv),
     }
