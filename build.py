@@ -175,7 +175,7 @@ def build_index(cv):
     <p class="chips">{cv_link} {links}</p>
   </div>
   <figure class="hero-photo">
-    <img src="{p["photo"]}" alt="Portrait of Cristian Meza" width="220" height="219">
+    <img src="{p["photo"]}" alt="Portrait of Cristian Meza" width="250" height="250">
   </figure>
 </div>"""
 
