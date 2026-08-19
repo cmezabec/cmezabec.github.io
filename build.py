@@ -158,9 +158,10 @@ def build_index(cv):
     p, c = cv["person"], cv["contact"]
     about = "\n".join(f"<p>{t}</p>" for t in cv["about"])
 
+    # Profiles with "show_on_home": false stay on the Contact page only.
     links = " ".join(
         f'<a class="chip" href="{pr["url"]}" rel="me">{esc(pr["name"])}</a>'
-        for pr in c["profiles"]
+        for pr in c["profiles"] if pr.get("show_on_home", True)
     )
     cv_link = (
         f'<a class="chip chip-primary" href="{p["cv_pdf"]}">Curriculum Vitae (PDF)</a>'
@@ -398,6 +399,11 @@ def main():
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(sitemap)
     print("wrote sitemap.xml")
+
+    robots = f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n"
+    with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write(robots)
+    print("wrote robots.txt")
 
 
 if __name__ == "__main__":
