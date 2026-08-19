@@ -50,7 +50,15 @@ El botón "Curriculum Vitae (PDF)" apunta a `assets/CV_CristianMeza.pdf`.
 Cuando recompiles `MEZA_CV_2026.tex`:
 
 ```bash
-cp ~/Library/CloudStorage/OneDrive-uv.cl/old/CV/MEZA_CV_2026.pdf ~/GitHub/cmezabec.github.io/assets/CV_CristianMeza.pdf
+cp "$HOME/Library/CloudStorage/OneDrive-uv.cl(2)/old/CV/MEZA_CV_2026.pdf" ~/GitHub/cmezabec.github.io/assets/CV_CristianMeza.pdf
+```
+
+⚠️ Hay **dos** raíces de OneDrive sincronizadas en este Mac: `OneDrive-uv.cl` y
+`OneDrive-uv.cl(2)`. Desde agosto de 2026 el CV vivo está en la de **`(2)`**; la otra
+ya no lo contiene. Si el comando falla, verifica cuál tiene el `.tex` más reciente:
+
+```bash
+ls -la "$HOME/Library/CloudStorage/OneDrive-uv.cl"*/old/CV/MEZA_CV_2026.tex
 ```
 
 y actualiza `person.cv_date` en `data/cv.json`.
